@@ -1,5 +1,4 @@
 body {
-  height: 100vh;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -7,14 +6,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+#topdiv{
+ height: 600px;
 }
 .navbar{
   display: flex;
-  justify-content: center;
   align-items: center; 
   background-color: rgb(159, 159, 159);
   color: black;
@@ -23,8 +23,9 @@ code {
   display: flex;
 }
 li{
-  margin: 0px 30px;
+  margin: 0px 15px;
   cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 li:hover{
   color: white;
@@ -36,7 +37,7 @@ li:hover{
   flex-direction: column;
   margin: auto;
   margin-top: 20px;
-  width: 700px;
+  width: 70%;
 }
 .textareaadjust{
   margin: 10px 0px;
@@ -44,7 +45,7 @@ li:hover{
 #btndiv{
   display: flex;
   margin: auto;
-  width: 700px;
+  width: 70%;
   flex-wrap: wrap;
 }
 .button{
@@ -56,7 +57,7 @@ li:hover{
 }
 
 #textarea{
-  height: 300px;
+  height: 20vh;
   border: 2px solid rgb(255, 204, 0);
   border-radius: 5px;
   
@@ -82,8 +83,8 @@ li:hover{
   margin: 5px 3px;
   border-radius: 55px;
   border: 1px solid;
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   cursor: pointer;
 }
 #darkgreen{

@@ -9,10 +9,8 @@ export default function Navbar(props) {
     <>
     <nav className='navbar'>
         <ul className='navul'>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/services">Services</Link></li>
-          <li>contact</li>
-          <li>search</li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Services</a></li>
         </ul>
     </nav>
     </>
