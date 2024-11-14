@@ -113,3 +113,6 @@ li:hover{
   position: absolute;
   /* right: 10px; */
 }
+.alertdiv{
+  height: 30px;
+}

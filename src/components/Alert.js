@@ -6,9 +6,10 @@ export default function Alert(props){
     }
     else{
         return(
-            <>
-            <alert id="alertmessage"><span id="alertextcss">{props.alertmessage}</span><span id="checksign">✔️</span></alert>
-            </>
+            <div >
+                <alert id="alertmessage"><span id="alertextcss">{props.alertmessage}</span><span id="checksign">✔️</span></alert>        
+            </div>
+
         )
     }
 }

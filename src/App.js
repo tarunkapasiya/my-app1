@@ -60,7 +60,9 @@ function App() {
    <>
    <div id='topdiv' style={styling}>
       <Navbar btn={btntext} />
-      <Alert alertmessage={alrt} />
+      <div className="alertdiv">
+        <Alert alertmessage={alrt} />
+      </div>
       <Textarea alertmessage={showalert} label="Please enter your text here to analyze" style={styling} />
       <button id='darkbtn' onClick={darkmodeactivation} >{btn}</button>
       <div id="colorbtn">
